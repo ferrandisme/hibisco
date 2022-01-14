@@ -26,6 +26,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "allowedCommonJsDependencies": [
+              "swimlane-ngx-charts.mjs"
+           ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
