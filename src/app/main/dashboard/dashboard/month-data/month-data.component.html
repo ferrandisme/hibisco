@@ -1,11 +1,14 @@
 <div fxLayout="row">
   <mat-grid-list cols="2" rowHeight="8:1" fxFlex>
-    <mat-grid-tile >
-        <h2 fxFlex  fxLayoutAlign="center">Empleo por tecnologia ({{language_amount}})</h2>
-
+    <mat-grid-tile>
+      <h2 fxFlex fxLayoutAlign="center">
+        Empleo por tecnologia ({{ language_amount }})
+      </h2>
     </mat-grid-tile>
     <mat-grid-tile>
-      <h2 fxFlex  fxLayoutAlign="center">Empleo por framework ({{framework_amount}})</h2>
+      <h2 fxFlex fxLayoutAlign="center">
+        Empleo por framework ({{ framework_amount }})
+      </h2>
     </mat-grid-tile>
     <mat-grid-tile [rowspan]="3">
       <ngx-charts-pie-chart
